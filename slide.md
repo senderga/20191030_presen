@@ -9,7 +9,7 @@
 
 reveal.jsを利用しています
 
-Jupyerのプレゼンテーション機能はRISEモジュール
+https://senderga.github.io/20191030_presen/<!-- .element: class="fragment" -->
 
 ---
 
@@ -265,20 +265,17 @@ WSGIについて調べている途中で発見
 - アプリでどんな問題を解決するのか→価値問診票
 - どうやって解決するのか→画面モックアップ
 
-基本的、でも大事<!-- .element: class="fragment slide" -->
+---
+
+<img src="mock01.png">
 
 ---
 
+<img src="mock02.png">
 
+---
 
---
-
-## RISE
-https://pypi.org/project/rise/
-
->RISE stands for *Reveal.js - Jupyter/IPython Slideshow Extension*
-
-直接マークダウンを書いてReveal.jsに読み込ませることにしました
+<img src="mock03.png">
 
 ---
 
@@ -288,15 +285,11 @@ https://pypi.org/project/rise/
 
 ビジュアルコーディング
 
-似ているようで違う分野<!-- .element: class="fragment slide" -->
-
-Jupyterを使うならデータビジュアライゼーションをやっても良かった<!-- .element: class="fragment slide" -->
-
 ---
 
 ## データビジュアライゼーション
 
-例:モンテカルロ法の可視化
+
 
 
 ---
