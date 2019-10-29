@@ -15,8 +15,8 @@ Jupyerのプレゼンテーション機能はRISEモジュール
 
 ## Webアプリ
 
-<p style="font-family:dnp-shuei-mgothic-std;font-weight:700;font-size:100px;">QK</p><!-- .element: class="fragment" -->
-<p style="font-family:dnp-shuei-mgothic-std;font-weight:700;">QuickKawaii</p><!-- .element: class="fragment" -->
+<p class="tk-imaginaryfriend-bb">QK</p><!-- .element: class="fragment" -->
+<p class="tk-imaginaryfriend-bb">QuickKawaii</p><!-- .element: class="fragment" -->
 
 https://qk.send.gq/<!-- .element: class="fragment" -->
 
