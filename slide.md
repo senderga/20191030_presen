@@ -9,7 +9,7 @@
 
 reveal.jsを利用しています
 
-https://senderga.github.io/20191030_presen/<!-- .element: class="fragment" -->
+https://senderga.github.io/20191030_presen/
 
 ---
 
@@ -122,7 +122,7 @@ Google Cloud Platform のストレージに上げて、
 
 <p class="fragment fade" style="font-size:7em;font-weight:bold;margin:0;">bottle</p>
 
-他はノーフレームワーク・ノーライブラリ<!-- .element: class="fragment" -->
+他はノーフレームワーク・ノーライブラリ
 
 <p class="fragment wisper" style="font-size:0.8em;color:gray;">で、PJAX(pushstate + AJAX)まで行きたかったなあ…</p>
 
@@ -136,22 +136,23 @@ Google Cloud Platform のストレージに上げて、
 
 ## Apache + mod_wsgi
 
-+ python3とpython3-develをyumでインストール<!-- .element: class="fragment" -->
++ python3とpython3-develをyumでインストール
   + ↑特に指定なしでも組み込みのpythonと競合しません
-  + むしろなにかやろうとする(SymLink書き換えるとか)と大変なことに<!-- .element: class="fragment" -->
-+ yum groupinstall "development tools"</code>(gccが必要)<!-- .element: class="fragment" -->
-+ httpdとhttpd-develをインストール<!-- .element: class="fragment" -->
-+ mod_wsgiをpip(pip3)でインストール<!-- .element: class="fragment" -->
+  + Python3で実行
+  + むしろなにかやろうとする(SymLink書き換えるとか)と大変なことに
++ yum groupinstall "development tools"</code>(gccが必要)
++ httpdとhttpd-develをインストール
++ mod_wsgiをpip(pip3)でインストール
 
 --
 
 ## Apache + mod_wsgi
 
 + mod_wsgi-expressでmodule-configでwsgi_moduleのパスと、WSGIPythonHomeを確認
-+ /etc/httpd/conf/httpd.confを編集<!-- .element: class="fragment" -->
-  + 上記のmod_wsgiとWSGIPythonHomeのパス、そしてWSGIScriptAliasを指定する<!-- .element: class="fragment" -->
-+ WSGIScriptAliasとしてアプリケーション本体を指定<!-- .element: class="fragment" -->
-  + bottleの場合、bottle.default_app()をapplicationとして渡す<!-- .element: class="fragment" -->
++ /etc/httpd/conf/httpd.confを編集
+  + 上記のmod_wsgiとWSGIPythonHomeのパス、そしてWSGIScriptAliasを指定する
++ WSGIScriptAliasとしてアプリケーション本体を指定
+  + bottleの場合、bottle.default_app()をapplicationとして渡す
 
 --
 
@@ -236,8 +237,8 @@ https://qk.send.gq/tables
 
 https://qk.send.gq/movie_register
 
-+ /movie/post/&lt;id&gt;にPOSTで登録<!-- .element: class="fragment slide" -->
-+ /movie/delete/&lt;id&gt;でDELETEで削除<!-- .element: class="fragment slide" -->
++ /movie/post/&lt;id&gt;にPOSTで登録
++ /movie/delete/&lt;id&gt;でDELETEで削除
 
 ---
 
