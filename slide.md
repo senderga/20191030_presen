@@ -268,11 +268,11 @@ WSGIについて調べている途中で発見
 
 ---
 
-<img src="mock2.png">
+<img src="mock2.png" stye="width:500px;">
 
 ---
 
-<img src="mock3.png">
+<img src="mock3.png" stye="width:500px;">
 
 ---
 
