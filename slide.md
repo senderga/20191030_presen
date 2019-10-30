@@ -271,11 +271,11 @@ WSGIについて調べている途中で発見
 
 ---
 
-<img src="mock02.png">
+<img src="mock2.png">
 
 ---
 
-<img src="mock03.png">
+<img src="mock3.png">
 
 ---
 
@@ -304,4 +304,4 @@ WSGIについて調べている途中で発見
 
 Processing
 
-画材としてのプログラミング
+https://processing.org/
