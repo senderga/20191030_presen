@@ -268,10 +268,6 @@ WSGIについて調べている途中で発見
 
 ---
 
-<img src="mock01.png">
-
----
-
 <img src="mock2.png">
 
 ---
