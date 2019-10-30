@@ -35,6 +35,7 @@
 	      try{Typekit.load(config)}catch(e){}};
 	      s.parentNode.insertBefore(tk,s)
 	      })(document);
+
 		</script>
 		<script src="js/p5.js"></script>
 		<script src="js/p5.dom.min.js"></script>
@@ -62,6 +63,7 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.configure({ slideNumber: 'c/t' });
 			Reveal.configure({ history: true });
+			Reveal.configure({ pdfSeparateFragments: false });
 			Reveal.initialize({
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
