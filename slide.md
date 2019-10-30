@@ -15,8 +15,8 @@ https://senderga.github.io/20191030_presen/
 
 ## Webアプリ
 
-<p class="tk-imaginaryfriend-bb">QK</p><!-- .element: class="fragment" -->
-<p class="tk-imaginaryfriend-bb">QuickKawaii</p><!-- .element: class="fragment" -->
+<p class="tk-imaginaryfriend-bb">QK</p>
+<p class="tk-imaginaryfriend-bb fragment">QuickKawaii</p>
 
 https://qk.send.gq/<!-- .element: class="fragment" -->
 
